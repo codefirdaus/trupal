@@ -1,0 +1,53 @@
+
+  .popup-overlay{
+    display:none;
+    position:fixed;
+    left:0;
+    bottom:0;
+    /* background-color:rgba(0,0,0,.5); */
+    background-color:white;
+    width:100%;
+    height:fit-content;
+    text-align:center;
+    /* padding:1rem; */
+    align-items:center;
+    justify-content:center;
+    z-index: 2;
+  }
+  
+  .popup{
+    display: inline-block;
+    width:100%;
+    min-height:50px;
+    background-color:white;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+    z-index: 2;
+  }
+
+  .popup-overlay p{
+    display: inline-block;
+    padding:0 1rem;
+    margin:0;
+    font-family:sans-serif;
+    z-index: 2;
+    color:#429792;
+  }
+  
+  a.cookieClose,
+  a.cookieSubmit{
+    margin-top:0;
+    display:inline-block;
+    color:#129e95;
+    /* background-color:#673862; */
+    border-radius: 5px;
+    padding: .25rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-right:1rem;
+  }

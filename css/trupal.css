@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    /* background-color: blanchedalmond; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container{
+    padding: 0 30px;
+    /* border: 2px solid green; */
+}
+
+.container-relative {
+    position: relative;
+}
+
+.relative-box {
+    position: relative;
+    padding: 5vmax 10vmax;
+}
+
+.col-2{
+    flex-basis: 50%;
+    margin: 3%;
+    min-width: 300px;
+}
+
+.jumbotron {
+    position: relative;
+    background-color: turquoise;
+}
+
+.jumbotron img {
+    width: 100%;
+    height: 70vmin;
+    object-fit: cover;
+}
+
+.jumbotrontitle {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* font-size: 24px; */
+    font-size: 7vmin;
+    height: 30vmax;
+    width: 45vmax;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 0 5vmax;
+    /* border: 1px solid; */
+    border-radius: 0 0 100px 0;
+    background: radial-gradient(#f8f9fa33,#f8f9fa42, #f8f9fa57, #f8f9fa52, #f8f9fa38, #f8f9fa2e, #f8f9fa00, #f8f9fa00, #f8f9fa00);
+}
+
+.jumbotronbox {
+    background-color: thistle;
+}
+
+.btn-frontpage {
+    color: #fff;
+    background-color: #15afa1;
+    border-color: #65ada3;
+    height: 32px;
+    width: 130px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 2px 10px 25px 10px;
+}
+
+.btn-productlist {
+    color: #fff;
+    background-color: #15afa1;
+    border-color: #65ada3;
+    height: auto;
+    width: auto;
+    font-size: 2.5vw;
+    border-radius: 5px;
+    padding: 2px 10px ;
+}
+
+.ourstorybox {
+    padding: 5vmax 10vmax;
+}
+
+.row-ourstory {
+    left: 5%; 
+    /* position: absolute;  */
+    width: 100%
+}
+
+.productbox {
+    position: relative;
+    padding: 30px 60px;
+    margin: auto;
+}
+
+.productbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.productbox h1 {
+    color: #21c7b0;
+}
+
+.videobox {
+    padding: 5vmax 10vmax;
+}
+
+.title{
+    text-align: center;
+    /* margin: 0 auto 80px; */
+    position: relative;
+    line-height: 60px;
+    font-size: 4vmax;;
+    color: #555;
+}
+
+.title::after{
+    content: ''; /*to create a line/space/blank space so that can use background as line*/
+    background: #6c757d;
+    width: 23vmax; /*the width fo the content*/
+    height: 5px; /*the height of the content*/
+    border-radius: 5px; /*make the line is not rectangle*/
+    position: absolute; /*fixed the line position*/
+    bottom: 0%; /*bring the line to bottom*/
+    left: 50%;  /*make it center*/
+    transform: translateX(-50%); /*make it center by combine it with left: 50%*/
+}

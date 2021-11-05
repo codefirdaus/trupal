@@ -1,0 +1,130 @@
+.navcolor {
+    margin: 0;
+    padding: 0;
+    background-color: #78cfaa;
+}
+
+.navbar {
+    background-color: #78cfaa;
+}
+.nav-link.active {
+    color: rgb(238, 238, 93);
+}
+
+.navbar img {
+    width: auto;
+    height: 8vh;
+    object-fit: cover;
+}
+
+.navbar ul li{
+    display: inline-block; /*sort the navbar in HORIZONTAL style*/
+    margin-right: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none; /*remove the <a> UNDERLINE link*/
+    color: #555;
+}
+
+.navbar ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.wrapper {
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+
+.search-box {
+    position: relative;
+}
+
+.iconbtn {
+    position: absolute;
+    background: #78cfaa;
+    right: 0;
+    top: 0;
+    height: 32px;
+    width: 30px;
+    border: none;
+    transition: all 0.8s ease;
+}
+
+.iconbtn2 {
+    position: relative;
+    background: #78cfaa;
+    right: 10px;
+    top: 0;
+    height: 32px;
+    width: 30px;
+    border: none;
+    transition: all 0.8s ease;
+}
+
+.iconbtn.animate {
+    transform: rotate(
+-360deg);
+    border-radius: 50px;
+}
+
+.btn.submit {
+    position: absolute;
+    right: 40px;
+}
+
+.input {
+    /* position: absolute; */
+    /* top: 0;
+    right: 0; */
+    box-sizing: border-box;
+    width: 0;
+    padding: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #29313a;
+    border: 3px solid #78cfaa;
+    transition: all 0.8s ease;
+  }
+
+.input.active {
+    /* position: absolute; */
+    width: 250px;
+    border: 3px solid #62d474;
+    padding: 0px 20px;
+}
+
+.submit {
+    position: absolute;
+    top: 0;
+    right: 8vmin;
+    box-sizing: border-box;
+    width: 0;
+    padding: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #29313a;
+    border: 3px solid #78cfaa;
+    transition: all 0.8s ease;
+    background: #62d474;
+}
+
+.submit.active {
+    /* position: absolute; */
+    width: 70px;
+    border: 3px solid #62d474;
+    border-radius: 0;
+    padding: 0;
+}
+
+.fa:hover {
+    color: white;
+}
+
