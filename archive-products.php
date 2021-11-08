@@ -10,19 +10,17 @@
         <p>You can find Trupal in most pharmacies, hospitals and other healthcare-related retailers including healthcare aisles in stores. We hae a wide selection of solutions to meet your different needs, from Value, Supreme, and Premium to Pants and even wet wipes.</p>
     </div>
     <div data-aos="fade-right" data-aos-duration="2000">
-        <div style="padding: 9vmax;">
-            <img src="<?php echo get_theme_file_uri('/images/products/Screenshot 2021-10-20 at 1.06.35 PM.png'); ?>" alt="our-story" class="mw-100">      
+        <div style="padding: 9vmax; text-align: center;">
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/_JtczVYZuWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div data-aos="fade-right" data-aos-duration="2000">
-        <div style="padding: 0 9vmax; padding-bottom: 9vmax;">
-            <img src="<?php echo get_theme_file_uri('/images/products/Screenshot 2021-10-20 at 1.07.15 PM.png'); ?>" alt="our-story" class="mw-100">
+        <div style="padding: 0 9vmax; padding-bottom: 9vmax; text-align: center; text-shadow: 2px 2px #FF0000;">
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/i8zBAMPLLik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="container-relative" style="background-color: #ffe5c4;">
         <br>
-        <h3 class="title">Products</h3>
-    <div class="relative-box">
+    <!-- <div class="relative-box"> -->
         <div class="row">
             <?php while(have_posts()) {
                 the_post();  ?>
@@ -55,6 +53,5 @@
                 </div>
             <?php } ?>
         </div>
-    </div>
-    </div>
+    <!-- </div> -->
 <?php get_footer() ?>

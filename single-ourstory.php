@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 <?php while(have_posts()) {
     the_post(); ?>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid our-story-pages">
         <?php if(get_the_ID() == 29) { ?>
             <img src="<?php echo get_theme_file_uri('/images/whoweare-img.jpeg'); ?>" alt="">
             <div class="jumbotrontitle" style="background: none;">
                 <br><br>
-                <h1 style="color: #21c7b0; font-size: 4vmax;"><?php the_title(); ?></h1>
+                <h3 style="color: #21c7b0;"><?php the_title(); ?></h3>
             </div>
             <div class="ourstorybox" style="background-color: #d0e6eb;">
                 <?php the_content(); ?>
@@ -15,16 +15,16 @@
             <img src="<?php echo get_theme_file_uri('/images/whatinspiresus-img.jpeg'); ?>" alt="">
             <div class="jumbotrontitle" style="background: none;">
                 <br><br>
-                <h1 style="color: #21c7b0; font-size: 4vmax;"><?php the_title(); ?></h1>
+                <h3 style="color: #21c7b0;"><?php the_title(); ?></h3>
             </div>
             <div class="ourstorybox" style="background-color: #fffce5;">
                 <?php the_content(); ?>
             </div>
         <?php } else if(get_the_ID() == 27) { ?>
-            <img src="<?php echo get_theme_file_uri('/images/howweinnovate-img.jpeg'); ?>" alt="">
+            <img src="<?php echo get_theme_file_uri('/images/banner3.png'); ?>" alt="">
             <div class="jumbotrontitle" style="background: none;">
                 <br><br>
-                <h1 style="color: #21c7b0; font-size: 4vmax;"><?php the_title(); ?></h1>
+                <h3 style="color: #21c7b0;"><?php the_title(); ?></h3>
             </div>
             <div class="ourstorybox" style="background-color: #bbe5ed;">
                 <?php the_content(); ?>
@@ -43,5 +43,4 @@
     <?php } ?>
 
 <?php } ?>
-
 <?php get_footer(); ?>

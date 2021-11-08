@@ -28,7 +28,7 @@
                         <span><i class="fa fa-bars"></i></span>
                     </button>
                     <div>
-                    <a class="navbar-brand" href="<?php echo site_url(); ?>"><img src="<?php echo get_theme_file_uri('/images/logo/trupal-logo.png'); ?>" alt="trupal-logo"></a>
+                    <a class="navbar-brand" href="<?php echo site_url(); ?>"><img style="width: 100px;" src="<?php echo get_theme_file_uri('/images/logo/trupal-logo.png'); ?>" alt="trupal-logo"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">

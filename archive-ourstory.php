@@ -1,9 +1,9 @@
 <?php get_header() ?>
     <div class="jumbotron jumbotron-fluid">
-        <img src="<?php echo get_theme_file_uri('/images/ourstory-img.jpeg'); ?>" alt="ourstory-img">
+        <img src="<?php echo get_theme_file_uri('/images/banner2.png'); ?>" alt="ourstory-img">
         <div class="jumbotrontitle" style="background: none; width: 40vmax;">
             <br>
-            <h3 style="color: white; font-size: 38px;">Our Story</h3>
+            <h3 style="color: white;">Our Story</h3>
         </div>
     </div>
     <?php while (have_posts()) {
@@ -19,7 +19,7 @@
         <?php } ?>
             <div class="jumbotrontitle" style="background: none;">
                 <br>
-                <h2 style="color: #38afaf;"><?php the_title(); ?></h2>
+                <h3 style="color: #38afaf;"><?php the_title(); ?></h3>
                 <a href="<?php the_permalink(); ?>"><button type="button" class="btn btn-frontpage">Find out more</button></a>
             </div>
         </div>

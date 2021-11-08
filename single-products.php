@@ -8,25 +8,27 @@
         </div>
     </div>
     <!-- productbox -->
-    <div class="productbox">
+    <?php
+        $productimage = get_field('product_image');
+    ?>
+    <div class="productbox" style="padding: 10px 60px 0px 60px;">
         <div class="align-self-center">
             <div class="row" style="position: relative; display: flex; margin-top: 0; padding-top: 0;">
                 <div class="col-sm-5">
-                    <?php if(get_the_ID() == 42) { ?>
-                        <img src="<?php echo get_theme_file_uri('/images/products/wetwipes-img.png'); ?>" alt="" class="mw-100" style="max-height: 100%">
-                    <?php } else if(get_the_ID() == 41) { ?>
-                        <img src="<?php echo get_theme_file_uri('/images/products/valueseries-img.png'); ?>" alt="" class="mw-100" style="max-height: 100%">
-                    <?php } else if(get_the_ID() == 39) { ?>
-                        <img src="<?php echo get_theme_file_uri('/images/products/supremeseries-img.png'); ?>" alt="" class="mw-100" style="max-height: 100%">
-                    <?php } else if(get_the_ID() == 36) { ?>
-                        <img src="<?php echo get_theme_file_uri('/images/products/adultseries-img.png'); ?>" alt="" class="mw-100" style="max-height: 100%">
-                    <?php } else if(get_the_ID() == 38) { ?>
-                        <img src="<?php echo get_theme_file_uri('/images/products/premiumseries-img.png'); ?>" alt="" class="mw-100" style="max-height: 100%">
-                    <?php } ?>
+                    <img src="<?= $productimage; ?>" class="mw-100" style="max-height: 100%">
                 </div>
                 <div class="col-sm-7" style="padding: 15vh 4vmin;">
                     <h1><br><?php the_title(); ?></h1>
                     <p><?php the_content(); ?></p>
+                    <div class="dropdown">
+                        <button class="btn btn-frontpage" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="width: 160px;">
+                            Buy Now
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="https://www.lazada.com.my/shop/adiaperspro/">Lazada</a></li>
+                            <li><a class="dropdown-item" href="https://shopee.com.my/adiaperspro">Shopee</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
