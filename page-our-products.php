@@ -15,7 +15,7 @@
         </div>
     </div>
     <div data-aos="fade-right" data-aos-duration="2000">
-        <div style="padding: 0 9vmax; padding-bottom: 9vmax; text-align: center;" >
+        <div style="padding: 0 9vmax; padding-bottom: 9vmax; text-align: center; width: 100%;" >
             <?php the_field('video_2') ?>  
         </div>
     </div>
@@ -35,10 +35,9 @@
         $product5,
     );
     
-    $color = array(ffe5c4, fde4e8, fde4e8, ffe5c4, ffe5c4, fde4e8);
+    $color = array('ade9e9', 'fde4e8', 'fde4e8', 'ade9e9', 'ade9e9', 'fde4e8');
     ?>
-    <div class="relative-box">
-        <div class="row">
+        <div class="row g-0">
             <?php
             $productquery = new WP_Query(array(
                 'posts_per_page' => 6,
@@ -49,10 +48,10 @@
             ));
                 while($productquery->have_posts()) {
                     $productquery->the_post(); ?>
-                    <div class="col-6 p-3" style="text-align: center;">
-                        <a href="<?php the_permalink(); ?>" style="text-decoration: none;">
+                    <div class="col-6 p-3" style="text-align: center; background-color: #<?php echo $color[$colorcount]; ?>; padding-bottom: 5vw!important;">
+                    <a href="<?php the_permalink(); ?>" style="text-decoration: none;">
                         <img src="<?= $productList[$count]['image']; ?>" alt="<?= $productList[$count]['title']; ?>">
-                        <button class="btn btn-productlist"><?= the_title(); ?></button></a>
+                     <br>  <button class="btn btn-productlist"><?= the_title(); ?></button></a>
                     </div>
                     <?php 
                         $count++; 
@@ -63,5 +62,4 @@
                wp_reset_postdata();
             ?>
         </div>
-    </div>
 <?php get_footer() ?>

@@ -1,8 +1,6 @@
 <footer>
     <div class="footer">
-        <div class="container" style="padding: 2vh 10vw;">
-            <p> &copy; Copyright 2020 of Trupal Inc.</p>
-        </div> 
+        <p style="margin-bottom: 0;"> &copy; Copyright 2020 of Trupal Inc.</p>
     </div>
 </footer>
 <script>

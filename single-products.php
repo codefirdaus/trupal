@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <div class="jumbotron jumbotron-fluid">
-        <img src="<?php echo get_theme_file_uri('/images/ourproducts-img.jpeg'); ?>" alt="">
+        <img src="<?php echo get_theme_file_uri('/images/ourproducts-img.jpeg'); ?>" alt="product-banner">
         <div class="jumbotrontitle" style="background: none;">
             <br><br>
             <h1 style="color: #21c7b0; font-size: 4vmax;">Our Products</h1>
@@ -17,7 +17,8 @@
                 <div class="col-sm-5">
                     <img src="<?= $productimage; ?>" class="mw-100" style="max-height: 100%">
                 </div>
-                <div class="col-sm-7" style="padding: 15vh 4vmin;">
+                <div class="col-sm-7">
+                <div class="product-box-responsive" style="padding: 15vh 4vmin;">
                     <h1><br><?php the_title(); ?></h1>
                     <p><?php the_content(); ?></p>
                     <div class="dropdown">
@@ -29,6 +30,7 @@
                             <li><a class="dropdown-item" href="https://shopee.com.my/adiaperspro">Shopee</a></li>
                         </ul>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -64,7 +66,7 @@
         <div class="row" style="text-align: center;">
             <div class="col-sm-4">
                 <br><br>
-                <a href="<?php echo site_url('/products'); ?>"><button class="btn btn-secondary" style="width: 130px; height: 35px;">Back</button>
+                <a href="<?php echo site_url('/our-products'); ?>"><button class="btn btn-secondary" style="width: 130px; height: 35px;">Back</button>
             </a></div>
             <div class="col-sm-4"></div>
             <div class="col-sm-4"></div>

@@ -3,7 +3,7 @@
         <img src="<?php echo get_theme_file_uri('/images/banner2.png'); ?>" alt="ourstory-img">
         <div class="jumbotrontitle" style="background: none; width: 40vmax;">
             <br>
-            <h3 style="color: white; font-size: 38px;">Our Story</h3>
+            <h1 style="color: white;">Our Story</h1>
         </div>
     </div>
     <?php

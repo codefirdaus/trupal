@@ -9,19 +9,19 @@
     <div class="ourstorybox" style="background-color: #e8f1fb;">
         <div class="row">
             <div class="col-sm-5">
-                <h2>Get in touch</h2>
+                <h2 style="font-size: 3rem;">Get in touch</h2>
                     <br>
-                    <p style="font-size: 20px;"><b>Trupal</b><br>
-                    <b>1st Floor, No. 17,</b><br>
-                    <b>Jalan Barat,</b><br>
-                    <b>Petaling Jaya, Selangor 46200</b><br>
-                    <b>Malaysia</b></p>
+                    <p style="font-size: 20px; font-weight: 300;">Trupal<br>
+                    1st Floor, No. 17,<br>
+                    Jalan Barat,<br>
+                    Petaling Jaya, Selangor 46200<br>
+                    Malaysia</p>
                     <br>
-                    <p><a href="" style="font-size: 20px; color: #42b5c1;">pharmacy@mbfh.com.my</a><br>
+                    <p style="font-size: 15px;"><a href="" style="font-size: 20px; color: #42b5c1;">pharmacy@mbfh.com.my</a><br>
                 <a href="" style="font-size: 20px; color: #42b5c1;">+603-7932 1702</a></p>
             </div>
             <div class="col-sm-7">
-                <p style="color: #063d5c;font-size: 1.25rem;">Send us a message for business opputurnity</p>
+                <p style="font-size: 1.25rem;">Send us a message for business opputurnity</p>
                 <form method="POST">
                 <div class="row">
                     <div class="col-12 col-lg-4">

@@ -1,6 +1,6 @@
 .navcolor {
     margin: 0;
-    padding: 0;
+    padding: 0 4vw;
     background-color: #78cfaa;
 }
 
@@ -133,3 +133,22 @@
     color: white;
 }
 
+@media screen and (max-width: 480px) {
+    .bubble-responsive {
+        height: 300px;
+    }
+
+    .kamal-img {
+        top: 250px!important;
+        left: 50vw!important;
+    }
+
+    .tri-right.btm-left-in:after {
+        bottom: 70px;
+    }
+
+    .tri-right.btm-right-in:after {
+        bottom: 70px;
+        right: 100px;
+    }
+}

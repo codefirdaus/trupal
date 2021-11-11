@@ -8,10 +8,12 @@ h5 {
     position: relative;
       width: 200px;
       height: auto;
-      background-color: lightyellow;
+      background-color: white;
+      box-shadow: 2px -1px #666;
   }
   .border{
-    border: 8px solid #666;
+    /* border: 8px solid #666; */
+    border: 1px solid #ffffff!important;
   }
   .round{
     border-radius: 30px;
@@ -90,12 +92,12 @@ h5 {
       position: absolute;
       width: 0;
       height: 0;
-      left: 0px;
+      left: 100px;
     right: auto;
     top: auto;
-      bottom: -20px;
+      bottom: -40px;
       /* border: 22px solid; */
-      border-color: transparent transparent transparent lightyellow;
+      border-color: white transparent transparent white;
   }
   
   /*Right triangle, placed bottom left side slightly in*/
@@ -116,12 +118,12 @@ h5 {
       position: absolute;
       width: 0;
       height: 0;
-      left: 38px;
+      left: 100px;
     right: auto;
     top: auto;
-      bottom: -20px;
-      border: 12px solid;
-      border-color: lightyellow transparent transparent lightyellow;
+      bottom: -40px;
+      border: 30px solid;
+      border-color: rgb(255, 255, 255) transparent transparent rgb(255, 255, 255);
   }
   
   /*Right triangle, placed bottom right side slightly in*/
@@ -142,10 +144,10 @@ h5 {
       width: 0;
       height: 0;
     left: auto;
-      right: 38px;
-      bottom: -20px;
-      border: 12px solid;
-      border-color: lightyellow lightyellow transparent transparent;
+      right: 120px;
+      bottom: -40px;
+      border: 30px solid;
+      border-color: rgb(255, 255, 255) rgb(255, 255, 255) transparent transparent;
   }
   /*
       left: -8px;
@@ -239,7 +241,8 @@ h5 {
   
   /* talk bubble contents */
   .talktext{
-    padding: 1em;
+    /* padding: 1em; */
+    padding: 2vmax;
       text-align: left;
     line-height: 1.5em;
   }

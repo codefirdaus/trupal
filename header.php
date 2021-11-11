@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="navcolor">
-        <div class="container" style="border: none;">
+        
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -33,8 +33,8 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="<?php echo site_url('/ourstory') ?>">Our Story</a>
-                                <?php if(is_page('/ourstory')) { ?>
+                                <a class="nav-link" aria-current="page" href="<?php echo site_url('/our-story') ?>">Our Story</a>
+                                <?php if(is_page('/our-story')) { ?>
                                     <a class="nav-link active" aria-current="page" href="<?php echo site_url('/ourstory') ?>">Our Story</a>
                                 <?php } ?>
                             </li>
@@ -42,14 +42,14 @@
                                 <a class="nav-link" href="<?php echo site_url('/our-pride') ?>">Our Pride</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="<?php echo site_url('/products') ?>">Our Products</a>
+                                <a class="nav-link" href="<?php echo site_url('/our-products') ?>">Our Products</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo site_url('/contact-us') ?>">Contact Us</a>
                             </li>
                         </ul>
                         <div class="wrapper">
-                            <form id="searchform" action="https://gravitas.my">
+                            <form id="searchform" action="#">
                                 <div class="search-box">
                                     <input id="searchingbox" type="text" placeholder="Search" class="input">
                                     <!-- <input type="submit" value="Submit" class="submit"> -->
@@ -69,5 +69,5 @@
                     </div>
                 </div>
             </nav>
-        </div>
+        
     </div>
