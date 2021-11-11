@@ -2,7 +2,7 @@
     <div class="jumbotron jumbotron-fluid">
         <img src="<?php echo get_theme_file_uri('/images/contactus-img.jpeg'); ?>" alt="ourproducts-img">
         <div class="jumbotrontitle" style="background: none;">
-            <br><br>
+            <br>
             <h1 style="color: #21c7b0; font-size: 4vmax;">Contact Us</h1>
         </div>
     </div>

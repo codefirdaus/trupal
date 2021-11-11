@@ -104,8 +104,8 @@ h2 {
     color: #fff;
     background-color: #15afa1;
     border-color: #65ada3;
-    height: auto;
-    width: auto;
+    height: 50px;
+    width: 240px;
     font-size: 2.5vw;
     border-radius: 5px;
     padding: 2px 20px ;
@@ -134,6 +134,10 @@ h2 {
 }
 
 .productbox h1 {
+    color: #21c7b0;
+}
+
+.productbox h2 {
     color: #21c7b0;
 }
 
@@ -188,6 +192,10 @@ h2 {
 
 @media screen and (max-width: 480px) {
     h1 {
+        font-size: 11vw!important;
+    }
+
+    h2 {
         font-size: 11vw;
     }
 
@@ -199,7 +207,19 @@ h2 {
     .product-box-responsive {
         padding: 0 0 8vh 0!important;
     }
+
+    .btn-productlist {
+        width: 116px;
+        height: 21px;
+    }
   }
+
+@media screen and (max-width: 380px) {
+    .btn-productlist {
+        width: 110px;
+        height: 20px;
+    }
+}
 
 @media screen and (min-width: 1650px) {
     h1 {
@@ -207,7 +227,7 @@ h2 {
     }
 
     h2 {
-        font-size: 4rem;;
+        font-size: 4rem;
     }
     .product-box-responsive p {
         padding-right: 250px;
@@ -219,4 +239,17 @@ h2 {
         font-size: 1.5rem;
     }
 
+    .btn-productlist {
+        width: 401px;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 1150px) {
+    .btn-productlist {
+        width: 338px;
+        height: 67px;
+
+    }
 }

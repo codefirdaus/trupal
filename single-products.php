@@ -3,7 +3,7 @@
     <div class="jumbotron jumbotron-fluid">
         <img src="<?php echo get_theme_file_uri('/images/ourproducts-img.jpeg'); ?>" alt="product-banner">
         <div class="jumbotrontitle" style="background: none;">
-            <br><br>
+            <br>
             <h1 style="color: #21c7b0; font-size: 4vmax;">Our Products</h1>
         </div>
     </div>
@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-sm-7">
                 <div class="product-box-responsive" style="padding: 15vh 4vmin;">
-                    <h1><br><?php the_title(); ?></h1>
+                    <h2><br><?php the_title(); ?></h2>
                     <p><?php the_content(); ?></p>
                     <div class="dropdown">
                         <button class="btn btn-frontpage" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="width: 160px;">

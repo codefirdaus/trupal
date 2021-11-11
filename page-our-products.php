@@ -1,8 +1,8 @@
 <?php get_header() ?>
     <div class="jumbotron jumbotron-fluid">
         <img src="<?php echo get_theme_file_uri('/images/ourproducts-img.jpeg'); ?>" alt="">
-        <div class="jumbotrontitle" style="background: none;">
-            <br><br>
+        <div class="jumbotrontitle" style="background: none;  width: 40vmax;">
+            <br>
             <h1 style="color: #21c7b0; font-size: 4vmax;">Our Products</h1>
         </div>
     </div>

@@ -251,3 +251,49 @@ h5 {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
   }
+
+  @media screen and (max-width: 480px) {
+    .bubble-responsive {
+        height: 300px;
+    }
+
+    .kamal-img {
+        top: 396px!important;
+        left: 14vw!important;
+    }
+
+    .tri-right.btm-left-in:after {
+        bottom: -40px;
+        left: 100px;
+    }
+
+    .tri-right.btm-right-in:after {
+        bottom: 70px;
+        right: 100px;
+        z-index: 1;
+    }
+
+    .talk-bubble.tri-right.border.round.btm-left-in {
+      position: absolute;
+      width: 70vw!important;
+      top: 214px!important;
+      left: 43px!important;
+    }
+
+    .alice-img {
+      bottom: 13px!important; 
+      right: 19px!important;
+    }
+
+    .talk-bubble.tri-right.border.round.btm-right-in {
+      width: 70vw!important;
+      bottom: 140px!important;
+      right: 8vw!important;
+    }
+
+    .tri-right.btm-right-in:after {
+      bottom: -41px;
+      right: 80px;
+      z-index: 1;
+    }
+  }

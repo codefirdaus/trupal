@@ -3,7 +3,7 @@
         <img src="<?php echo get_theme_file_uri('/images/banner2.png'); ?>" alt="ourstory-img">
         <div class="jumbotrontitle" style="background: none; width: 40vmax;">
             <br>
-            <h1 style="color: white;">Our Story</h1>
+            <h1 style="color: white;  font-size: 4vmax;">Our Story</h1>
         </div>
     </div>
     <?php
@@ -29,8 +29,8 @@
 
                 <div class="jumbotrontitle" style="background: none;">
                     <br>
-                    <h2 style="color: #38afaf;"><?php the_title(); ?></h2>
-                    <a href="<?php the_permalink(); ?>"><button type="button" class="btn btn-frontpage">Find out more</button></a>
+                    <h1 style="color: #38afaf;"><?php the_title(); ?></h1>
+                    <a href="<?php the_permalink(); ?>"><div data-aos="zoom-in"><button type="button" class="btn btn-frontpage">Find out more</button></div></a>
                 </div>
             </div>
     <?php } ?>
