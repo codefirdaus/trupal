@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="ourstorybox" style="background-color: #d7ebeb;">
-        <p>You can find Trupal in most pharmacies, hospitals and other healthcare-related retailers including healthcare aisles in stores. We hae a wide selection of solutions to meet your different needs, from Value, Supreme, and Premium to Pants and even wet wipes.</p>
+        <p>You can find Trupal in most pharmacies, hospitals and other healthcare-related retailers including healthcare aisles in stores. We have a wide selection of solutions to meet your different needs, from Value, Supreme, and Premium to Pants and even wet wipes.</p>
     </div>
     <div data-aos="fade-right" data-aos-duration="2000">
         <div style="padding: 9vmax; text-align: center;">

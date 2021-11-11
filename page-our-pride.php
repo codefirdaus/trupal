@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-sm-7" style="margin: 10px -50px;">
                     <div class="ourstorybox" style="padding: 5vmax 4max 5vmax 10vmax;">
-                        <p style="color: #429792">I put off weekend adventures discovering new places to eat as I was constantly worried about emergency stops to ease myself. I now wear Trupal with comfort and confidenc. And it fits so well too! My wife and I are back to doing the things we enjoy!</p>
+                        <p style="color: #429792">I put off weekend adventures discovering new places to eat as I was constantly worried about emergency stops to ease myself. I now wear Trupal with comfort and confidence. And it fits so well too! My wife and I are back to doing the things we enjoy!</p>
                     </div>                   
                 </div>
             </div>
